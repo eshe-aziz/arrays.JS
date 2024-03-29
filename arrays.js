@@ -17,7 +17,7 @@ console.log({arr3});
 //var arr = ["apple", "mango", "apple",   "orange", "mango", "mango"];
 var arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
 function removeDuplicates(arr) {
-    return [...new Set(arr)];
+    return [...new Set(arr)]; //the spread operator returns the duplicate as an array
 }
  
 console.log(removeDuplicates(arr));
@@ -29,7 +29,7 @@ console.log(duplicates);
 //console it else console "the search word was not found"let arr5 = ["the", "way", "x", 4];
 let arr5 = ["the", "way", "x", 4]; 
 const String = "way"; 
-  
+
 if (arr5.includes(String) !== -1) { 
     console.log(`${String} is present in the array`); 
 } else { 
